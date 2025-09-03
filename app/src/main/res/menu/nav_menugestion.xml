@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_pacientes"
+        android:title="Pacientes" />
+    <item
+        android:id="@+id/nav_tutores"
+        android:title="Tutores" />
+    <item
+        android:id="@+id/nav_citas"
+        android:title="Citas Médicas" />
+    <item
+        android:id="@+id/nav_area_salud"
+        android:title="Área de Salud" />
+    <item
+        android:id="@+id/nav_historial"
+        android:title="Historial" />
+    <item
+        android:id="@+id/nav_reportes"
+        android:title="Reportes" />
+</menu>
