@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Estilo personalizado para el NavigationView -->
+    <style name="NavigationMenuStyle" parent="Widget.Design.NavigationView">
+        <item name="android:background">#FFFFFF</item> <!-- Color de fondo -->
+        <item name="android:itemTextAppearance">@style/NavigationItemTextAppearance
+        </item>
+        <item name="android:textSize">20sp</item> <!-- Aumentar el tamaño del texto -->
+        <item name="android:textColor">@android:color/black</item> <!-- Color del texto -->
+
+    </style>
+
+    <style name="NavigationItemTextAppearance">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#FF0000</item> <!-- Color del texto de los elementos -->
+    </style>
+</resources>
