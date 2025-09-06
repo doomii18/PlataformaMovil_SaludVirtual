@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.PlataformaSalud_Virtual" parent="Base.Theme.PlataformaSalud_Virtual" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background_light</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.PlataformaSalud_Virtual</item>
+    </style>
+
 </resources>
