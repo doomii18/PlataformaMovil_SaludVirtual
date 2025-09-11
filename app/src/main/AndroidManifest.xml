@@ -24,6 +24,14 @@
             <activity android:name=".RegistrarseActivity" />
         <activity android:name=".MenudeGestion" />
 
+        <activity android:name=".PacienteActivity" />
+        <activity android:name=".TutoresActivity" />
+        <activity android:name=".CitasMedicasActivity" />
+        <activity android:name=".ÁreadeSaludActivity" />
+        <activity android:name=".ReportesActivity" />
+        <activity android:name=".HistorialActivity" />
+
+
 
     </application>
 
