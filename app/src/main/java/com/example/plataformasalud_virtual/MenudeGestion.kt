@@ -1,5 +1,6 @@
 package com.example.plataformasalud_virtual
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
@@ -48,33 +49,45 @@ class MenudeGestion: AppCompatActivity() {
         }
 
 
-
-
-
-
         navView.setNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
+
                 R.id.nav_pacientes -> {
-                    // Navegar a la actividad Pacientes
+                    val intent = Intent(this, PacienteActivity::class.java)
+                    startActivity(intent)
                 }
+
                 R.id.nav_tutores -> {
-                    // Navegar a la actividad Tutores
+                    val intent = Intent(this, TutoresActivity::class.java)
+                    startActivity(intent)
                 }
+
                 R.id.nav_citas -> {
-                    // Navegar a la actividad Citas Médicas
+                    val intent = Intent(this, CitasMedicasActivity::class.java)
+                    startActivity(intent)
                 }
+
                 R.id.nav_area_salud -> {
-                    // Navegar a la actividad Área de Salud
+                    val intent = Intent(this, ÁreadeSaludActivity::class.java)
+                    startActivity(intent)
                 }
+
                 R.id.nav_historial -> {
-                    // Navegar a la actividad Historial
+                    val intent = Intent(this, HistorialActivity::class.java)
+                    startActivity(intent)
                 }
+
                 R.id.nav_reportes -> {
-                    // Navegar a la actividad Reportes
+                    val intent = Intent(this, ReportesActivity::class.java)
+                    startActivity(intent)
                 }
+
+
             }
-            drawerLayout.closeDrawers()
+            drawerLayout.closeDrawers() // cierra el menú al seleccionar
             true
         }
+
+
     }
 }

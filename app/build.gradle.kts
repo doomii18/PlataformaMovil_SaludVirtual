@@ -48,6 +48,7 @@ dependencies {
     implementation("androidx.constraintlayout:constraintlayout:2.0.4")
 
     implementation ("androidx.core:core-splashscreen:1.0.0")
+    implementation(libs.androidx.mediarouter)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
