@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlataformaSalud_Virtual">
         <activity
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true"
             android:theme="@style/Theme.App.SplashScreen">
@@ -21,18 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-            <activity android:name=".RegistrarseActivity" />
-        <activity android:name=".MenudeGestion" />
-
-        <activity android:name=".PacienteActivity" />
-        <activity android:name=".TutoresActivity" />
-        <activity android:name=".CitasMedicasActivity" />
-        <activity android:name=".ÁreadeSaludActivity" />
-        <activity android:name=".ReportesActivity" />
-        <activity android:name=".HistorialActivity" />
-
-
-
+        <activity android:name=".RegistrarseActivity" />
     </application>
 
 </manifest>
