@@ -16,9 +16,10 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorAccent"
-            app:title="Salud Virtual"
-            app:navigationIcon="@drawable/menu" />
+            android:background="@color/teal_700"
+
+            app:navigationIcon="@drawable/menu"
+            app:title="Salud Virtual" />
 
         <FrameLayout
             android:id="@+id/contentFrame"
@@ -32,5 +33,6 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu" />
 </androidx.drawerlayout.widget.DrawerLayout>
