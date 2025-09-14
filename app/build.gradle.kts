@@ -50,6 +50,11 @@ dependencies {
     implementation ("androidx.core:core-splashscreen:1.0.0")
     implementation(libs.androidx.mediarouter)
 
+    implementation("androidx.appcompat:appcompat:1.7.0")
+    implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.recyclerview:recyclerview:1.3.2")
+
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
