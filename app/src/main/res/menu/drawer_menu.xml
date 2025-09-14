@@ -1,14 +1,39 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-        <item android:id="@+id/Pacientes" android:title="Pacientes"/>
-        <item android:id="@+id/Tutores" android:title="Tutores"/>
-        <item android:id="@+id/CitasMedicas" android:title="Citas Medicas"/>
-        <item android:id="@+id/HistorialMedico" android:title="Historial Medico"/>
-        <item android:id="@+id/PersonalMedico" android:title="Personal Medico"/>
-        <item android:id="@+id/Departamentos" android:title="Departamento"/>
-        <item android:id="@+id/CargoMedico" android:title="Cargo Medico"/>
-        <item android:id="@+id/Reportes" android:title="Reportes"/>
+        <item
+            android:id="@+id/Pacientes"
+            android:icon="@drawable/ic_paciente"
+            android:title="Pacientes" />
+        <item
+            android:id="@+id/Tutores"
+            android:icon="@drawable/ic_tutor"
+            android:title="Tutores" />
+        <item
+            android:id="@+id/CitasMedicas"
+            android:icon="@drawable/ic_citamedica"
+            android:title="Citas Médicas" />
+        <item
+            android:id="@+id/HistorialMedico"
+            android:icon="@drawable/ic_citamedica"
+            android:title="Historial Médico" />
+    </group>
 
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/PersonalMedico"
+            android:icon="@drawable/ic_doctor"
+            android:title="Personal Médico" />
+        <item
+            android:id="@+id/Departamentos"
+            android:icon="@drawable/ic_departamento"
+            android:title="Departamentos" />
+        <item
+            android:id="@+id/CargoMedico"
+            android:icon="@drawable/ic_cargo"
+            android:title="Cargo Médico" />
+        <item
+            android:id="@+id/Reportes"
+            android:icon="@drawable/ic_reporte"
+            android:title="Reportes" />
     </group>
 </menu>
-
