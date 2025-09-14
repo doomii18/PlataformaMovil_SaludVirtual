@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Pacientes" android:title="Pacientes"/>
+        <item android:id="@+id/Tutores" android:title="Tutores"/>
+        <item android:id="@+id/CitasMedicas" android:title="Citas Medicas"/>
+        <item android:id="@+id/HistorialMedico" android:title="Historial Medico"/>
+        <item android:id="@+id/PersonalMedico" android:title="Personal Medico"/>
+        <item android:id="@+id/Departamentos" android:title="Departamento"/>
+        <item android:id="@+id/CargoMedico" android:title="Cargo Medico"/>
+        <item android:id="@+id/Reportes" android:title="Reportes"/>
+
+    </group>
+</menu>
+

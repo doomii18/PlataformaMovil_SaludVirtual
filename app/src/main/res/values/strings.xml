@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Plataforma Salud_Virtual</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+
 </resources>
