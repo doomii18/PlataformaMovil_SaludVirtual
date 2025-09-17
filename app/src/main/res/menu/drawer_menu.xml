@@ -35,5 +35,10 @@
             android:id="@+id/Reportes"
             android:icon="@drawable/ic_reporte"
             android:title="Reportes" />
+
+        <item
+            android:id="@+id/CerrarSesion"
+            android:icon="@drawable/outline_arrow_circle_left_24"
+            android:title="Cerrar Sesión" />
     </group>
 </menu>

@@ -1,7 +1,9 @@
 package com.example.plataformasalud_virtual
 
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -91,6 +93,24 @@ class MenuActivity : AppCompatActivity() {
                         .commit()
                     supportActionBar?.title = "Reportes"
                 }
+
+                R.id.CerrarSesion -> {
+                    // diálogo de confirmación
+                    val builder = androidx.appcompat.app.AlertDialog.Builder(this)
+                    builder.setTitle("Cerrar Sesión")
+                    builder.setMessage("¿Estás seguro de que deseas cerrar sesión?")
+                    builder.setPositiveButton("Sí") { dialog, _ ->
+                        // Ir al login y cerrar la actividad actual
+                        val intent = Intent(this, LoginActivity::class.java)
+                        startActivity(intent)
+                        finish()
+                    }
+                    builder.setNegativeButton("No") { dialog, _ ->
+                        dialog.dismiss() // cerrar el diálogo
+                    }
+                    builder.show()
+                }
+
             }
 
             drawerLayout.closeDrawers()
