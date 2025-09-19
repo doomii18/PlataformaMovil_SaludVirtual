@@ -39,8 +39,8 @@ class ListaFragment : Fragment() {
             else -> listOf("Reportes", "Total Citas atendidas durante 2023-2025")
         }
 
-        val rv = view.findViewById<RecyclerView>(R.id.recyclerView)
-        rv.layoutManager = LinearLayoutManager(requireContext())
-        rv.adapter = ListaAdapter(datos)
+//        val rv = view.findViewById<RecyclerView>(R.id.recyclerView)
+//        rv.layoutManager = LinearLayoutManager(requireContext())
+//        rv.adapter = ListaAdapter(datos)
     }
 }

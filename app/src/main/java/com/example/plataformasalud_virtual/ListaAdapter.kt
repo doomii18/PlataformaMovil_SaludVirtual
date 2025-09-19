@@ -9,7 +9,7 @@ class ListaAdapter(private var datos: List<String>) :
     RecyclerView.Adapter<ListaAdapter.VH>() {
 
     class VH(v: View) : RecyclerView.ViewHolder(v) {
-        val tv: TextView = v.findViewById(R.id.tvItem)
+        val tv: TextView = v.findViewById(R.id.tvNombre)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VH {
