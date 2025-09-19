@@ -12,6 +12,5 @@
 
     <style name="NavigationItemTextAppearance">
         <item name="android:textSize">30sp</item>
-        <item name="android:textColor">#FF0000</item> <!-- Color del texto de los elementos -->
     </style>
 </resources>

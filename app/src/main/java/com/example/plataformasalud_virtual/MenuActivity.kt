@@ -1,6 +1,5 @@
 package com.example.plataformasalud_virtual
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
