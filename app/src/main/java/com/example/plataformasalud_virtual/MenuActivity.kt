@@ -93,6 +93,11 @@ class MenuActivity : AppCompatActivity() {
                     supportActionBar?.title = "Reportes"
                 }
 
+                R.id.Reportes->{
+                    val intent = Intent(this, MockInterceptor::class.java)
+                    startActivity(intent)
+                }
+
                 R.id.CerrarSesion -> {
                     // diálogo de confirmación
                     val builder = androidx.appcompat.app.AlertDialog.Builder(this)
