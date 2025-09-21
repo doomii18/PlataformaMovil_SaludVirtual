@@ -1,5 +1,5 @@
 [
-  { "nombre": "Ana Pérez",  "Codigo": "A001" },
-  { "nombre": "Luis Gómez", "Codigo": "A002" },
-  { "nombre": "María Díaz", "Codigo": "A003" }
+  { "nombre": "Ana Pérez",  "codigo": "A001" },
+  { "nombre": "Luis Gómez", "codigo": "A002" },
+  { "nombre": "María Díaz", "codigo": "A003" }
 ]

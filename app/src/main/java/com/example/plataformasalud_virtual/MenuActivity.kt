@@ -87,16 +87,17 @@ class MenuActivity : AppCompatActivity() {
                     supportActionBar?.title = "Cargo Médicos"
                 }
                 R.id.Reportes -> {
+                    // Aquí cargamos el fragmento de reportes/pacientes y citas INVENTADOS PPOR EL MOMENTO EN EL AREA DE JSON ... en lugar de ListaFragment
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("I"))
+                        .replace(R.id.contentFrame, PacientesFragment())
                         .commit()
                     supportActionBar?.title = "Reportes"
                 }
-
-                R.id.Reportes->{
-                    val intent = Intent(this, MockInterceptor::class.java)
-                    startActivity(intent)
-                }
+//
+//                R.id.Reportes->{
+//                    val intent = Intent(this, MockInterceptor::class.java)
+//                    startActivity(intent)
+//                }
 
                 R.id.CerrarSesion -> {
                     // diálogo de confirmación

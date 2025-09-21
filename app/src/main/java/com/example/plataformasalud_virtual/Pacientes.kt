@@ -1,6 +1,6 @@
 package com.example.plataformasalud_virtual
 
-class Pacientes (
+data class Pacientes (
     val nombre: String,
-    val Codigo: String
+    val codigo: String
 )
