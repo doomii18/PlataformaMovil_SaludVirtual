@@ -6,12 +6,12 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.plataformasalud_virtual.databinding.FragmentListBinding
+import com.example.plataformasalud_virtual.databinding.FragmentPacientesBinding
 import com.google.android.material.snackbar.Snackbar
 
-class ListadosFragment   : Fragment(R.layout.fragment_list) {
+class PacientesFragment   : Fragment(R.layout.fragment_pacientes) {
 
-    private var _b: FragmentListBinding? = null
+    private var _b: FragmentPacientesBinding? = null
     private val b get() = _b!!
 
     private val vm: PacientesViewModel by viewModels()
@@ -19,7 +19,7 @@ class ListadosFragment   : Fragment(R.layout.fragment_list) {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        _b = FragmentListBinding.bind(view)
+        _b = FragmentPacientesBinding.bind(view)
 
         b.rvPacientes.layoutManager = LinearLayoutManager(requireContext())
         b.rvPacientes.adapter = adapter

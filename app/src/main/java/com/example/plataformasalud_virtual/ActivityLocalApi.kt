@@ -9,7 +9,7 @@ class ActivityLocalAp:AppCompatActivity() {
 
         if (savedInstanceState == null) {
             supportFragmentManager.beginTransaction()
-                .replace(R.id.container, ListadosFragment())
+                .replace(R.id.container, PacientesFragment())
                 .commit()
         }
     }

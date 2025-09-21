@@ -3,6 +3,6 @@ package com.example.plataformasalud_virtual
 import retrofit2.http.GET
 
 interface ApiService {
-    @GET("Pacientes")
+    @GET("pacientes")
     suspend fun getPacientes(): List<Pacientes>
 }

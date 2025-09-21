@@ -16,19 +16,19 @@ class PacientesAdapter(private var items: List<Pacientes> = emptyList())
     }
 
     class VH(v: View) : RecyclerView.ViewHolder(v) {
-        val tvNombre: TextView = v.findViewById(R.id.tvNombre)
-        val tvCodigo: TextView = v.findViewById(R.id.tvCodigo)
+        val tvNombre: TextView = v.findViewById(R.id.tvnombre)
+        val tvCodigo: TextView = v.findViewById(R.id.tvcodigo)
     }
 
     override fun onCreateViewHolder(p: ViewGroup, vt: Int): VH {
-        val v = LayoutInflater.from(p.context).inflate(R.layout.item_texto, p, false)
+        val v = LayoutInflater.from(p.context).inflate(R.layout.item_pacientes, p, false)
         return VH(v)
     }
 
     override fun onBindViewHolder(h: VH, pos: Int) {
         val s = items[pos]
         h.tvNombre.text = s.nombre
-        h.tvCodigo.text = s.Codigo
+        h.tvCodigo.text = s.codigo
     }
 
     override fun getItemCount() = items.size
