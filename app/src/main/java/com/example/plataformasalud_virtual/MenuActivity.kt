@@ -34,70 +34,40 @@ class MenuActivity : AppCompatActivity() {
         drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
 
-        // Mostrar por defecto Lista A
+        // Mostrar por defecto el  nuevo fragmento de inicio en lugar de la listaFragment.
         supportFragmentManager.beginTransaction()
-            .replace(R.id.contentFrame, ListaFragment.newInstance("A"))
+            .replace(R.id.contentFrame, InicioFragment())
             .commit()
-        supportActionBar?.title = "Pequeños Héroes"
+        supportActionBar?.title = "Inicio"
 
         // Selección del menú
         navView.setNavigationItemSelectedListener { item ->
             when (item.itemId) {
-                R.id.Pacientes -> {
+
+                R.id.Iniciobtn -> {//carga el nuevo fragmento del inicio layout personalizado
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("B"))
+                        .replace(R.id.contentFrame, InicioFragment())
                         .commit()
-                    supportActionBar?.title = "Pacientes Pediatricos"
-                }
-                R.id.Tutores -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("C"))
-                        .commit()
-                    supportActionBar?.title = "Tutores"
-                }
-                R.id.CitasMedicas -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("D"))
-                        .commit()
-                    supportActionBar?.title = "Citas Médicas"
+                    supportActionBar?.title = "Inicio"
                 }
 
-                R.id.HistorialMedico -> {
+
+                R.id.ConsultasMONGODB -> {
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("E"))
+                        .replace(R.id.contentFrame, ListaFragment.newInstance("A"))
                         .commit()
-                    supportActionBar?.title = "Historial Médico"
+                    supportActionBar?.title = "Consultas  MongoDB"
                 }
-                R.id.PersonalMedico -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("F"))
-                        .commit()
-                    supportActionBar?.title = "Personal Médico"
-                }
-                R.id.Departamentos -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("G"))
-                        .commit()
-                    supportActionBar?.title = "Departamentos"
-                }
-                R.id.CargoMedico -> {
-                    supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, ListaFragment.newInstance("H"))
-                        .commit()
-                    supportActionBar?.title = "Cargo Médicos"
-                }
-                R.id.Reportes -> {
+
+
+                R.id.ReportesMedicoCubo -> {
                     // Aquí cargamos el fragmento de reportes/pacientes y citas INVENTADOS PPOR EL MOMENTO EN EL AREA DE JSON ... en lugar de ListaFragment
                     supportFragmentManager.beginTransaction()
                         .replace(R.id.contentFrame, PacientesFragment())
                         .commit()
                     supportActionBar?.title = "Reportes"
                 }
-//
-//                R.id.Reportes->{
-//                    val intent = Intent(this, MockInterceptor::class.java)
-//                    startActivity(intent)
-//                }
+
 
                 R.id.CerrarSesion -> {
                     // diálogo de confirmación
