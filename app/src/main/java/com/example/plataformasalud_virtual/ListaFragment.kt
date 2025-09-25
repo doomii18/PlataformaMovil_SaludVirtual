@@ -20,25 +20,20 @@ class ListaFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, s: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_pacientes, container, false)
     }
+}
+//    override fun onViewCreated(view: View, s: Bundle?) {
+//        val tipo = arguments?.getString(ARG_TIPO) ?: "A"
 
-    override fun onViewCreated(view: View, s: Bundle?) {
-        val tipo = arguments?.getString(ARG_TIPO) ?: "A"
+//        val datos = when (tipo) {
+//            "A" -> listOf("Bienvenido a la Plataforma Salud Virtual")
+//            "B" -> listOf("Pacientes Pediatricos")
+//            "C" -> listOf("Tutores")
+//
+//            else -> listOf("Reportes Medicos")
+//        }
 
-        val datos = when (tipo) {
-            "A" -> listOf("Bienvenido a la Plataforma Salud Virtual", "La mejor atencion para tus pequeños")
-            "B" -> listOf("Pacientes", "nombres", "apellidos", "sexo")
-            "C" -> listOf("Tutores", "nombres", "apellidos", "ocupacion")
-            "D" -> listOf("Citas Medicas ", "alergias", "codigo", "hora")
-            "E" -> listOf("Historial Medico", "alergias", "peso", "pronostico")
-            "F" -> listOf("Personal Medico", "Codigo", "Nombres", "Direccion")
-            "G" -> listOf("Departamentos", "Codigo", "Nombre del departamento")
-            "H" -> listOf("Cargo Médico", "Codigo", "Nombre del cargo")
-
-            else -> listOf("Reportes", "Total Citas atendidas durante 2023-2025")
-        }
-
-//        val rv = view.findViewById<RecyclerView>(R.id.recyclerView)
+//       val rv = view.findViewById<RecyclerView>(R.id.recyclerView)
 //        rv.layoutManager = LinearLayoutManager(requireContext())
 //        rv.adapter = ListaAdapter(datos)
-    }
-}
+   // }
+//}

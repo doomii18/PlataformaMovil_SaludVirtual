@@ -1,40 +1,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/Pacientes"
-            android:icon="@drawable/ic_paciente"
-            android:title="Pacientes" />
-        <item
-            android:id="@+id/Tutores"
-            android:icon="@drawable/ic_tutor"
-            android:title="Tutores" />
-        <item
-            android:id="@+id/CitasMedicas"
-            android:icon="@drawable/ic_citamedica"
-            android:title="Citas Médicas" />
-        <item
-            android:id="@+id/HistorialMedico"
-            android:icon="@drawable/ic_citamedica"
-            android:title="Historial Médico" />
-    </group>
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/PersonalMedico"
-            android:icon="@drawable/ic_doctor"
-            android:title="Personal Médico" />
+            android:id="@+id/Iniciobtn"
+            android:icon="@drawable/ic_inicio"
+            android:title="Inicio"/>
+
         <item
-            android:id="@+id/Departamentos"
-            android:icon="@drawable/ic_departamento"
-            android:title="Departamentos" />
+            android:id="@+id/ConsultasMONGODB"
+            android:icon="@drawable/ic_consultas"
+            android:title="Consultas a MongoDB" />
+
         <item
-            android:id="@+id/CargoMedico"
-            android:icon="@drawable/ic_cargo"
-            android:title="Cargo Médico" />
-        <item
-            android:id="@+id/Reportes"
+            android:id="@+id/ReportesMedicoCubo"
             android:icon="@drawable/ic_reporte"
-            android:title="Reportes" />
+            android:title="Dashboard/Reporte Gerencial Medicos_Cubo" />
 
         <item
             android:id="@+id/CerrarSesion"
