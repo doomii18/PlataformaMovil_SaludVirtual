@@ -1,6 +1,4 @@
 package com.example.plataformasalud_virtual
-
-
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
@@ -14,7 +12,7 @@ class PacientesFragment   : Fragment(R.layout.fragment_pacientes) {
     private var _b: FragmentPacientesBinding? = null
     private val b get() = _b!!
 
-    private val vm: PacientesViewModel by viewModels()
+    private val vm: ReporteViewModel by viewModels()
     private val adapter = PacientesAdapter()
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -40,3 +38,4 @@ class PacientesFragment   : Fragment(R.layout.fragment_pacientes) {
         _b = null
     }
 }
+

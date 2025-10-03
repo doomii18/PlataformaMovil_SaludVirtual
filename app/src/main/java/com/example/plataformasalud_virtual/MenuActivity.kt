@@ -2,7 +2,6 @@ package com.example.plataformasalud_virtual
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.Button
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -60,12 +59,11 @@ class MenuActivity : AppCompatActivity() {
                 }
 
 
-                R.id.ReportesMedicoCubo -> {
-                    // Aquí cargamos el fragmento de reportes/pacientes y citas INVENTADOS PPOR EL MOMENTO EN EL AREA DE JSON ... en lugar de ListaFragment
+                R.id.ReportesMedicoCubo -> {                    // Aquí cargamos el fragmento de reportes gerencial/listadebotones  INVENTADOS PPOR EL MOMENTO EN EL AREA DE endopoints ... en lugar de consultas al cubo
                     supportFragmentManager.beginTransaction()
-                        .replace(R.id.contentFrame, PacientesFragment())
+                        .replace(R.id.contentFrame, TableroGerencialFragment())
                         .commit()
-                    supportActionBar?.title = "Reportes"
+                    supportActionBar?.title = "Reporte Gerencial"
                 }
 
 

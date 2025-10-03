@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_blue_50"
+    android:background="@color/white"
     android:padding="16dp">
 
     <LinearLayout
@@ -31,7 +31,6 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:src="@drawable/logo"
-
                     android:layout_marginEnd="16dp"/>
 
                 <LinearLayout
@@ -67,7 +66,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -78,19 +78,19 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
                     android:text="Misión"
                     android:textColor="@color/teal_700"
                     android:textSize="22sp"
-                    android:textStyle="bold"
-                    android:layout_marginBottom="8dp"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Brindar atención pediátrica de alta calidad, enfocados en la seguridad de nuestros pacientes, ofreciendo una atención médica integral por el mejor equipo de profesionales que conducen con ética, humanismo y excelencia."
-                    android:textSize="16sp"
                     android:lineSpacingExtra="4dp"
-                    android:textColor="@android:color/black"/>
+                    android:text="Brindar atención pediátrica de alta calidad, enfocados en la seguridad de nuestros pacientes, ofreciendo una atención médica integral por el mejor equipo de profesionales que conducen con ética, humanismo y excelencia."
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
@@ -101,7 +101,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -135,7 +136,8 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             app:cardCornerRadius="12dp"
-            app:cardElevation="4dp">
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -309,7 +311,6 @@
 
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
-
 
     </LinearLayout>
 </ScrollView>

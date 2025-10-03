@@ -1,5 +1,36 @@
 [
-  { "nombre": "Ana Pérez",  "codigo": "A001" },
-  { "nombre": "Luis Gómez", "codigo": "A002" },
-  { "nombre": "María Díaz", "codigo": "A003" }
+  {
+    "pacienteKey": 1,
+    "nombreCompletoPacientes": "Ana María Pérez López",
+    "sexoPacientes": "Femenino",
+    "edadPacientes": 8,
+    "alergiasPacientes": "Penicilina, Mariscos",
+    "nombreCompletoTutor": "Carlos Pérez García",
+    "sexoTutor": "Masculino",
+    "edadTutor": 35,
+    "ocupacionTutor": "Ingeniero"
+  },
+  {
+    "pacienteKey": 2,
+    "nombreCompletoPacientes": "Luis Alberto Gómez Martínez",
+    "sexoPacientes": "Masculino",
+    "edadPacientes": 12,
+    "alergiasPacientes": "Ninguna",
+    "nombreCompletoTutor": "María Gómez Hernández",
+    "sexoTutor": "Femenino",
+    "edadTutor": 42,
+    "ocupacionTutor": "Doctora"
+  },
+  {
+    "pacienteKey": 3,
+    "nombreCompletoPacientes": "María Fernanda Díaz Rodríguez",
+    "sexoPacientes": "Femenino",
+    "edadPacientes": 6,
+    "alergiasPacientes": "Polvo, Ácaros",
+    "nombreCompletoTutor": "Roberto Díaz Sánchez",
+    "sexoTutor": "Masculino",
+    "edadTutor": 38,
+    "ocupacionTutor": "Profesor"
+  }
 ]
+
