@@ -1,0 +1,152 @@
+[
+  {
+    "nombreMedico": "Cameron Iliana Jackson",
+    "mes": "Enero",
+    "razoncita": "Consulta General",
+    "recuentoCitas": 143
+  },
+  {
+    "nombreMedico": "Cameron Iliana Jackson",
+    "mes": "Febrero",
+    "razoncita": "Consulta nutricional",
+    "recuentoCitas": 152
+  },
+  {
+    "nombreMedico": "Cameron Iliana Jackson",
+    "mes": "Marzo",
+    "razoncita": "Control de crecimiento",
+    "recuentoCitas": 162
+  },
+  {
+    "nombreMedico": "Cameron Iliana Jackson",
+    "mes": "Abril",
+    "razoncita": "Dificultades para respirar",
+    "recuentoCitas": 153
+  },
+  {
+    "nombreMedico": "Cameron Iliana Jackson",
+    "mes": "Mayo",
+    "razoncita": "Dolor abdominal",
+    "recuentoCitas": 148
+  },
+  {
+    "nombreMedico": "Cameron Iliana Jackson",
+    "mes": "Junio",
+    "razoncita": "Dolor de oido frecuente",
+    "recuentoCitas": 350
+  },
+  {
+    "nombreMedico": "Carlos Castillo Gutiérrez",
+    "mes": "Enero",
+    "razoncita": "Emergencia leve",
+    "recuentoCitas": 153
+  },
+  {
+    "nombreMedico": "Carlos Castillo Gutiérrez",
+    "mes": "Febrero",
+    "razoncita": "Enfermedad Comun",
+    "recuentoCitas": 169
+  },
+  {
+    "nombreMedico": "Carlos Castillo Gutiérrez",
+    "mes": "Marzo",
+    "razoncita": "Fiebre",
+    "recuentoCitas": 170
+  },
+  {
+    "nombreMedico": "Carlos Castillo Gutiérrez",
+    "mes": "Abril",
+    "razoncita": "Neumonia",
+    "recuentoCitas": 163
+  },
+  {
+    "nombreMedico": "Carlos Castillo Gutiérrez",
+    "mes": "Mayo",
+    "razoncita": "Problemas de piel",
+    "recuentoCitas": 164
+  },
+  {
+    "nombreMedico": "Carlos Castillo Gutiérrez",
+    "mes": "Junio",
+    "razoncita": "Revision de vacunas",
+    "recuentoCitas": 312
+  },
+  {
+    "nombreMedico": "David Mandosa Valencia",
+    "mes": "Enero",
+    "razoncita": "Revision neonatal",
+    "recuentoCitas": 120
+  },
+  {
+    "nombreMedico": "David Mandosa Valencia",
+    "mes": "Febrero",
+    "razoncita": "Tos y resfriado",
+    "recuentoCitas": 135
+  },
+  {
+    "nombreMedico": "David Mandosa Valencia",
+    "mes": "Marzo",
+    "razoncita": "Transtorno del desarrollo",
+    "recuentoCitas": 140
+  },
+  {
+    "nombreMedico": "David Mandosa Valencia",
+    "mes": "Abril",
+    "razoncita": "Vacunacion",
+    "recuentoCitas": 167
+  },
+  {
+    "nombreMedico": "María González López",
+    "mes": "Enero",
+    "razoncita": "Consulta de seguimiento",
+    "recuentoCitas": 110
+  },
+  {
+    "nombreMedico": "María González López",
+    "mes": "Febrero",
+    "razoncita": "Consulta General",
+    "recuentoCitas": 125
+  },
+  {
+    "nombreMedico": "María González López",
+    "mes": "Marzo",
+    "razoncita": "Consulta nutricional",
+    "recuentoCitas": 130
+  },
+  {
+    "nombreMedico": "Juan Pérez Rodríguez",
+    "mes": "Enero",
+    "razoncita": "Control de crecimiento",
+    "recuentoCitas": 115
+  },
+  {
+    "nombreMedico": "Juan Pérez Rodríguez",
+    "mes": "Febrero",
+    "razoncita": "Consulta General",
+    "recuentoCitas": 128
+  },
+  {
+    "nombreMedico": "Juan Pérez Rodríguez",
+    "mes": "Marzo",
+    "razoncita": "Consulta de seguimiento",
+    "recuentoCitas": 142
+  },
+  {
+    "nombreMedico": "Ana Martínez Silva",
+    "mes": "Enero",
+    "razoncita": "Vacunacion",
+    "recuentoCitas": 105
+  },
+  {
+    "nombreMedico": "Ana Martínez Silva",
+    "mes": "Febrero",
+    "razoncita": "Neumonia",
+    "recuentoCitas": 118
+  },
+  {
+    "nombreMedico": "Ana Martínez Silva",
+    "mes": "Marzo",
+    "razoncita": "Dolor intestinal",
+    "recuentoCitas": 125
+  }
+]
