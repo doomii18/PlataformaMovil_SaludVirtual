@@ -14,6 +14,7 @@ class TableroAdapter(
 ) : RecyclerView.Adapter<TableroAdapter.ViewHolder>() {
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val imgIcono: ImageView = itemView.findViewById(R.id.imgIcono)
         val tvTitulo: TextView = itemView.findViewById(R.id.tvTitulo)
         val tvDescripcion: TextView = itemView.findViewById(R.id.tvDescripcion)
         val btnAcceder: MaterialButton = itemView.findViewById(R.id.btnAcceder)
@@ -28,15 +29,16 @@ class TableroAdapter(
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val item = items[position]
 
+        holder.imgIcono.setImageResource(item.iconoResId)
         holder.tvTitulo.text = item.titulo
         holder.tvDescripcion.text = item.descripcion
 
-        //  Hacer que al hacer clicck te lleve al fragmento paciente
+        // Click en toda la tarjeta
         holder.itemView.setOnClickListener {
             onItemClick(item)
         }
 
-        // TAMBIÉN el botón "Acceder"
+        // Click en el botón "Acceder"
         holder.btnAcceder.setOnClickListener {
             onItemClick(item)
         }

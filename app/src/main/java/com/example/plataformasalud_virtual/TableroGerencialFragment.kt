@@ -23,10 +23,10 @@ class TableroGerencialFragment : Fragment(R.layout.fragment_tablero_gerencial) {
     private fun setupTablero() {
         // Datos directos y simples
         val tableroItems = listOf(
-            TableroItem("Pacientes", "Gestión de pacientes"),
-            TableroItem("Doctores", "Personal médico"),
-            TableroItem("Citas Médicas", "Citas y agendamiento"),
-            TableroItem("Razones Consulta", "Razones de consulta")
+            TableroItem("Pacientes", "Gestión de pacientes", R.drawable.icono_paciente),
+            TableroItem("Doctores", "Personal médico", R.drawable.icono_medico),
+            TableroItem("Citas Médicas", "Citas y agendamiento", R.drawable.icono_citas),
+            TableroItem("Razones Consulta", "Razones de consulta", R.drawable.icono_razoncita)
         )
 
         // Configurar RecyclerView
@@ -44,20 +44,25 @@ class TableroGerencialFragment : Fragment(R.layout.fragment_tablero_gerencial) {
                     .replace(R.id.contentFrame, PacientesFragment())
                     .addToBackStack("tablero")
                     .commit()
-            } "Doctores" -> {
-            parentFragmentManager.beginTransaction()
-                .replace(R.id.contentFrame, PersonalMedicoFragment()) // cambiaaaaaaaaar
-                .addToBackStack("tablero")
-                .commit()
             }
+
+            "Doctores" -> {
+                parentFragmentManager.beginTransaction()
+                    .replace(R.id.contentFrame, PersonalMedicoFragment())
+                    .addToBackStack("tablero")
+                    .commit()
+            }
+
             "Razones Consulta" -> {
                 parentFragmentManager.beginTransaction()
                     .replace(R.id.contentFrame, RazonCitaFragment())
                     .addToBackStack("tablero")
                     .commit()
             }
+
             else -> {
-                Snackbar.make(binding.root, "${item.titulo} - Próximamente", Snackbar.LENGTH_SHORT).show()
+                Snackbar.make(binding.root, "${item.titulo} - Próximamente", Snackbar.LENGTH_SHORT)
+                    .show()
             }
         }
     }

@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="Registra las citas de tus pequeños"
-        android:textSize="17sp"
+        android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
@@ -37,10 +37,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-
         android:text="Crea una cuenta"
         android:textSize="29sp"
-
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -51,6 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
+        android:textSize="20dp"
         android:text="¿Tienes cuenta? Iniciar Sesión"
         android:textColor="@android:color/holo_blue_dark"
         app:layout_constraintEnd_toEndOf="parent"
@@ -65,6 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:hint="Crear una contraseña"
+        android:textSize="23dp"
         app:passwordToggleEnabled="true"
         app:layout_constraintTop_toBottomOf="@id/tilEmail"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,6 +74,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTextPassword"
             android:layout_width="match_parent"
+            android:textSize="23dp"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -85,6 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:hint="Nombre de Usuario"
+        android:textSize="23sp"
         app:layout_constraintTop_toBottomOf="@id/textView3"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,6 +96,8 @@
             android:id="@+id/editTextUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="23dp"
+
             android:inputType="textPersonName" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -103,6 +107,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:textSize="23dp"
+
         android:hint="Correo Electrónico"
         app:layout_constraintTop_toBottomOf="@id/tilUser"
         app:layout_constraintStart_toStartOf="parent"
@@ -112,6 +118,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/editTextEmail"
             android:layout_width="match_parent"
+            android:textSize="23dp"
+
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -121,8 +129,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:padding="16dp"
+        android:padding="18dp"
         android:text="Registrarse"
+        android:textSize="23dp"
         app:layout_constraintTop_toBottomOf="@id/tilPassword2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -134,6 +143,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
+        android:textSize="23dp"
+
         android:hint="Confirmar contraseña"
         app:passwordToggleEnabled="true"
         app:layout_constraintTop_toBottomOf="@id/tilPassword"
@@ -145,6 +156,8 @@
             android:id="@+id/editTextPassword2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="23dp"
+
             android:inputType="textPassword" />
     </com.google.android.material.textfield.TextInputLayout>
 
