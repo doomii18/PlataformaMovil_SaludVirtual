@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Nombre Médico"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold"
             android:textColor="#009688"
             android:layout_marginBottom="8dp" />
@@ -40,7 +40,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Mes"
-                android:textSize="14sp"
+                android:textSize="20sp"
                 android:textColor="#666666" />
 
             <TextView
@@ -48,7 +48,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="0 citas"
-                android:textSize="14sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#009688"
                 android:paddingHorizontal="12dp"

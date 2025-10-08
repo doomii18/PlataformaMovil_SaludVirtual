@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="RAZONES DE CONSULTA"
-            android:textSize="22sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:textColor="@android:color/white"
             android:gravity="center" />
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Citas Pediátricas por Razón y Mes"
-            android:textSize="14sp"
+            android:textSize="21sp"
             android:textColor="@android:color/white"
             android:gravity="center"
             android:layout_marginTop="4dp" />
@@ -55,26 +55,27 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
                 android:orientation="vertical"
-                android:padding="12dp"
-                android:gravity="center">
+                android:padding="12dp">
 
                 <TextView
                     android:id="@+id/tvTotalRazones"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="#4A6261" />
+                    android:textColor="#4A6261"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="134dp"
+                    android:layout_height="46dp"
+                    android:gravity="center"
                     android:text="Total Razones Frecuentes"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="20sp" />
 
             </LinearLayout>
 
@@ -89,27 +90,28 @@
             app:cardElevation="2dp">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_width="186dp"
+                android:layout_height="111dp"
+                android:gravity="center"
                 android:orientation="vertical"
-                android:padding="12dp"
-                android:gravity="center">
+                android:padding="12dp">
 
                 <TextView
                     android:id="@+id/tvTotalCitas"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
-                    android:textColor="#2196F3" />
+                    android:textColor="#2196F3"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:text="Total Citas"
-                    android:textSize="12sp"
-                    android:textColor="@android:color/darker_gray" />
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="24sp" />
 
             </LinearLayout>
 

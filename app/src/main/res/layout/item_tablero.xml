@@ -18,16 +18,14 @@
         android:orientation="vertical"
         android:padding="20dp">
 
-        <!-- Icono del módulo -->
-
-        <!-- Título del módulo -->
-
+        <!-- Ícono del módulo -->
         <ImageView
             android:id="@+id/imgIcono"
-            android:layout_width="44dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="16dp"
-            android:contentDescription="Icono módulo" />
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="12dp"
+            android:contentDescription="Icono módulo"
+            android:src="@drawable/img" /> />
 
         <TextView
             android:id="@+id/tvTitulo"
@@ -52,7 +50,7 @@
             android:maxLines="2"
             android:text="Descripción del módulo"
             android:textColor="#B4ABAB"
-            android:textSize="14sp" />
+            android:textSize="16sp" />
 
         <!-- Botón de acceso -->
         <com.google.android.material.button.MaterialButton
@@ -63,7 +61,7 @@
             android:paddingHorizontal="16dp"
             android:paddingVertical="4dp"
             android:text="Acceder"
-            android:textSize="12sp"
+            android:textSize="14sp"
             app:backgroundTint="@color/teal_700" />
 
     </LinearLayout>

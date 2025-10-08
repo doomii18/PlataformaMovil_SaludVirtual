@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="20dp">
 
         <!-- Nombre de la razon -->
         <TextView
@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Razón de consulta"
-            android:textSize="16sp"
+            android:textSize="22sp"
             android:textStyle="bold"
             android:textColor="#009688" />
 
@@ -36,7 +36,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Mes: Enero"
-                android:textSize="14sp"
+                android:textSize="20sp"
                 android:textColor="#666666" />
 
             <TextView
@@ -44,9 +44,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Citas: 10"
-                android:textSize="14sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
-
                 android:textColor="#009688"
                 android:paddingHorizontal="8dp"
                 android:paddingVertical="4dp" />
