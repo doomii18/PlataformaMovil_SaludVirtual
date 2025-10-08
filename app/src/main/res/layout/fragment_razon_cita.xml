@@ -50,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="4dp"
+            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="8dp"
             app:cardElevation="2dp">
 
@@ -65,7 +66,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#4A6261"
+                    android:textColor="#009688"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -74,7 +75,7 @@
                     android:layout_height="46dp"
                     android:gravity="center"
                     android:text="Total Razones Frecuentes"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/black"
                     android:textSize="20sp" />
 
             </LinearLayout>
@@ -86,6 +87,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_margin="4dp"
+            app:cardBackgroundColor="#FFFFFF"
             app:cardCornerRadius="8dp"
             app:cardElevation="2dp">
 
@@ -101,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="0"
-                    android:textColor="#2196F3"
+                    android:textColor="#009688"
                     android:textSize="30sp"
                     android:textStyle="bold" />
 
@@ -110,7 +112,7 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Total Citas"
-                    android:textColor="@android:color/darker_gray"
+                    android:textColor="@android:color/black"
                     android:textSize="24sp" />
 
             </LinearLayout>

@@ -7,8 +7,8 @@
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="8dp"
-    app:cardElevation="2dp"
-    app:cardBackgroundColor="#F8F9FA">
+    app:cardBackgroundColor="#FFFFFF"
+    app:cardElevation="2dp">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
             android:text="Nombre Médico"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:textColor="#009688"
+            android:textColor="#000000"
             android:layout_marginBottom="8dp" />
 
         <!-- Mes y Citas -->
@@ -41,7 +41,7 @@
                 android:layout_weight="1"
                 android:text="Mes"
                 android:textSize="20sp"
-                android:textColor="#666666" />
+                android:textColor="#000000" />
 
             <TextView
                 android:id="@+id/tvCitas"
@@ -49,8 +49,7 @@
                 android:layout_height="wrap_content"
                 android:text="0 citas"
                 android:textSize="20sp"
-                android:textStyle="bold"
-                android:textColor="#009688"
+                android:textColor="#000000"
                 android:paddingHorizontal="12dp"
                 android:paddingVertical="4dp" />
 

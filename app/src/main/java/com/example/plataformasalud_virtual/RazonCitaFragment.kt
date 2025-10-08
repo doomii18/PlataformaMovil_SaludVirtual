@@ -22,6 +22,8 @@ class RazonCitaFragment : Fragment(R.layout.fragment_razon_cita) {
             RazonCita("Vacunación", "Enero", 72),
             RazonCita("Infección respiratoria", "Febrero", 50),
 
+
+
         )
 
         setupRecyclerView(razonesPrueba)
