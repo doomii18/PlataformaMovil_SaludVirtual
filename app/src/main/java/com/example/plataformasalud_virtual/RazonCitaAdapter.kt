@@ -24,11 +24,13 @@ class RazonCitaAdapter : ListAdapter<RazonCita, RazonCitaAdapter.RazonCitaViewHo
     class RazonCitaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val tvRazon: TextView = itemView.findViewById(R.id.tvRazon)
         private val tvMes: TextView = itemView.findViewById(R.id.tvMes)
+        val tvanio: TextView = itemView.findViewById(R.id.tvAnio)
         private val tvRecuento: TextView = itemView.findViewById(R.id.tvRecuento)
 
         fun bind(razon: RazonCita) {
             tvRazon.text = razon.razonCita
             tvMes.text = "Mes: ${razon.mes}"
+            tvanio.text = "Año: ${razon.anio}"
             tvRecuento.text = "Citas: ${razon.recuentoCitas}"
         }
     }
